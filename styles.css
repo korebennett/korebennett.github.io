@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4e6766;
+}
+
+a:hover {
+    color: #581b39;
+}
+
+/* hover animation */
+a:hover {
+    transition: color 0.5s;
+}
+
+/* hover fade animation */
+a {
+    transition: color 0.5s;
+}
+
+/* transparent, sticky header */
+.header {
+    padding: 10px;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* blur / transparency*/
+    backdrop-filter: blur(17px);
+    /* drop shadow*/
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.header_text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.8em;
+    color: #4e6766;
+    text-decoration: none;
+}
+
+.margins {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+}
+
+.heading {
+    font-family: 'DM Serif Display', serif;
+    font-size: 4em;
+    margin-bottom: 20px;
+    text-align: center;
+    /*color: #581b39;*/
+    color: #4e6766;
+}
+
+.author {
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: 200;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #555;
+}
+
+.date {
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: 200;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #555;
+}
+
+.paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #555;
+}
+
+.divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #a7bca0;
+}
+
+.footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    bottom: 0;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: #999;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-top: 1px solid #aaa;
+}
+
+.footer_text {
+    padding-left: 5%;
+    padding-right:5%;
+}
+
+.figure {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    color: #555;
+    padding-top: 10px;
+    border-top: 1px solid #aaa;
+}
+
+.post_title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #4e6766;
+}
+
+.post_text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #555;
+}
+
+.post_date {
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: 200;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color: #999;
+}
+
+.dashed_divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px dashed #bbb;
+}
+
+@media screen and (max-width: 1000px) {
+    .margins {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+}
